@@ -7,7 +7,7 @@ Install
 Use Volo (`npm install volo -g` in the comamnd line with [nodejs](http://nodejs.org)).
 
 ```
- volo create folder_name zestjs/template-singlepage 
+ volo create folder_name zestjs/template-browser
 ```
 
 Alternatively, [download the full project including the dependencies here](https://github.com/downloads/zestjs/template-browser/zest-template-browser.zip).

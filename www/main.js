@@ -5,13 +5,12 @@ require({
   },
   map: {
     '*': {
+      'selector': 'jquery',
       'css': 'require-css/css',
       'less': 'require-less/less',
-      'is': 'require-is/is'
+      'is': 'require-is/is',
+      'com': 'zest/com',
+      'cs': 'require-coffee/cs'
     }
   }
-}, ['zest', 'app/Hello/hello'], function($z, Hello) {
-  $z.render(Hello, {
-    welcome: ' to ZestJS'
-  }, document.body);
-});
+}, ['app/main']);

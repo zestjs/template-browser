@@ -10,7 +10,8 @@
 
   modules: [
     {
-      name: '../main'
+      name: '../main',
+      include: ['zest/build!app/main']
     }
   ]
 }

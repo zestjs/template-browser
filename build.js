@@ -11,7 +11,7 @@
   modules: [
     {
       name: '../main',
-      include: ['zest/build!app/main']
+      include: ['app/main']
     }
   ]
 }
